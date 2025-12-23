@@ -37,5 +37,5 @@ def index():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000)) # Use PORT from env, default to 8000 if missing
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    port = int(.environ.get("PORT", 8000)) # Use PORT from env, default to 8000 if missing
+    .run(app, host="0.0.0.0", port=port)
